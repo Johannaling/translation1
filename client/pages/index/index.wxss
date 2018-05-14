@@ -1,4 +1,38 @@
-/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.container{
+  display: flex;
+  flex-direction: row;
+
+}
+.word, .sentence{
+  /* display: flex; */
+  flex: 1;
+  height: 80rpx;
+  border:1rpx solid #fff;
+  text-align: center;
+  background-color: blue;
+}
+input{
+  display: flex;
+  flex-direction:column; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *index.wxss*
 page {
     background: #F6F6F6;
     display: flex;
@@ -121,4 +155,4 @@ page {
     font-size: 24rpx;
     line-height: 36rpx;
     word-break: break-all;
-}
+} */
