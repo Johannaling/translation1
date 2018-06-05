@@ -1,6 +1,5 @@
 <view class='container'>
-  <!-- <input placeholder='在此输入单词或句子'></input> -->
-  <view class='word'>单词</view>
-  <view class='sentence'>句子</view>
+  <image class='title' src='{{img}}' mode='aspectFit'></image>
+  <view class='word'>{{word1}}</view>
+  <view class='centance'>{{word2}}</view>
 </view>
-<input placeholder='在此输入单词或句子'></input>
